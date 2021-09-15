@@ -2,9 +2,9 @@
     background-color: black;
 }
 
-.Links{
+.menu-items{
+    color: seashell;
     text-decoration: underline;
     text-align: right;
     justify-content: space-around;
-
 }
