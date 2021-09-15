@@ -38,11 +38,11 @@ html {
     background: url('./images/img-mission-background.jpeg');
     display: flex;
     margin: 0 auto;
-    position: relative;
+    position: fixed;
 } 
 
 .OurMission{
-    position: absolute;
+    position: fixed;
     bottom: 250px;
     top: 250px;
     right: 0px;
