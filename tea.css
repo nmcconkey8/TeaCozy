@@ -35,7 +35,24 @@ html {
 .splash {
     height: 700px;
     width: 1200px;
-    background: url(file:///C:/Users/roist/git_practise/Tea-Cozy/resources/images/img-mission-background.jpg);
+    background: url('./images/img-mission-background.jpeg');
     display: flex;
     margin: 0 auto;
+    position: relative;
 } 
+
+.OurMission{
+    position: absolute;
+    bottom: 250px;
+    top: 250px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.month{
+    text-align: center;
+}
