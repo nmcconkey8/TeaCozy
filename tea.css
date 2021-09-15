@@ -15,7 +15,7 @@ html {
     justify-content: space-between;
     text-decoration: underline;
     background-color: black;
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -38,7 +38,7 @@ html {
     background: url('./images/img-mission-background.jpeg');
     display: flex;
     margin: 0 auto;
-    position: fixed;
+    position: relative;
 } 
 
 .OurMission{
