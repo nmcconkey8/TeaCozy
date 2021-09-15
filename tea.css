@@ -1,6 +1,41 @@
-.menu{
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
     color: seashell;
-    text-decoration: underline;
-    text-align: right;
-    justify-content: space-around;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
 }
+
+.nav-container {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    padding-right: 10px;
+}
+
+.splash {
+    height: 700px;
+    width: 1200px;
+    background: url(file:///C:/Users/roist/git_practise/Tea-Cozy/resources/images/img-mission-background.jpg);
+    display: flex;
+    margin: 0 auto;
+} 
