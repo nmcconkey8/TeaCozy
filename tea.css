@@ -1,3 +1,10 @@
 .body {
     background-color: black;
 }
+
+.Links{
+    text-decoration: underline;
+    text-align: right;
+    justify-content: space-around;
+
+}
